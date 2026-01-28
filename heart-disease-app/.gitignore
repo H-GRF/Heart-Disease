@@ -1,0 +1,56 @@
+# === Python ===
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.mypy_cache/
+
+# === Environments ===
+# Local virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+*.bak
+*.sh
+
+# === Data & Logs ===
+# The PDF says "Never commit raw data files > 4-5MB"
+# If you keep heart.csv, don't ignore it. If you have larger ones, add them here:
+*.log
+data_raw/
+temp_data/
+
+# === Docker ===
+# While most Docker files are tracked, ignore local build artifacts
+.dockerignore
+
+# === IDEs and System ===
+# Visual Studio Code
+.vscode/
+# PyCharm / IntelliJ
+.idea/
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+desktop.ini
+
+# === Distribution / Packaging ===
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
